@@ -23,7 +23,7 @@ Namespace Q305659
 	Public Class MyLabelBrickExporter
 		Inherits VisualBrickExporter
 		Protected Overrides Sub DrawClientContent(ByVal gr As IGraphics, ByVal clientRect As RectangleF)
-			gr.DrawString("MyLabel string", VisualBrick.Style.Font, DXBrushes.Red, clientRect, VisualBrick.Style.StringFormat.DXValue)
+			gr.DrawString("MyLabel string", VisualBrick.Style.Font, DXBrushes.Red, clientRect, VisualBrick.Style.StringFormat.Value)
 		End Sub
 	End Class
 End Namespace

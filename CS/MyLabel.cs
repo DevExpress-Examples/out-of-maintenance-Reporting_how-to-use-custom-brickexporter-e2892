@@ -22,7 +22,7 @@ namespace Q305659
 
     public class MyLabelBrickExporter : VisualBrickExporter {
         protected override void DrawClientContent(IGraphics gr, RectangleF clientRect) {
-            gr.DrawString("MyLabel string", VisualBrick.Style.Font, DXBrushes.Red, clientRect, VisualBrick.Style.StringFormat.DXValue);
+            gr.DrawString("MyLabel string", VisualBrick.Style.Font, DXBrushes.Red, clientRect, VisualBrick.Style.StringFormat.Value);
         }
     }
 }
